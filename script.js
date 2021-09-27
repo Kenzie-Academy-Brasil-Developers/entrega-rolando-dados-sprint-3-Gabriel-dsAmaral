@@ -1,5 +1,3 @@
-// xx . push(Math.floor(Math.random() * 6 + 1) + Math.floor(Math.random() * 6 + 1))
-
 let arr1000rols = function () {
     let arr = []
     for (let i = 0; i < 1000; i++) {
@@ -63,23 +61,10 @@ function crateBar (x,y){
     const newdiv = document.createElement("div");
     const newContent = document.createTextNode(x);
     newdiv.style.width = `${y * 1.8}px`;
-    // newdiv.style.height = `${y}px`;
     newdiv.appendChild(newContent);
     const bodyy = document.querySelector(".divMother");
     bodyy.appendChild(newdiv)
 }
-
-// crateBar(rolandoDados()[0])
-// crateBar(rolandoDados()[1])
-// crateBar(rolandoDados()[2])
-// crateBar(rolandoDados()[3])
-// crateBar(rolandoDados()[4])
-// crateBar(rolandoDados()[5])
-// crateBar(rolandoDados()[6])
-// crateBar(rolandoDados()[7])
-// crateBar(rolandoDados()[8])
-// crateBar(rolandoDados()[9])
-// crateBar(rolandoDados()[10])
 
 
 crateBar(rolandoDados()[0],getElement(0))
